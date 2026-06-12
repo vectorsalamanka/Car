@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ماشین بازی - جستجوی ماشین</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 ماشین بازی</h1>
+            <p>ماشین مورد نظر خود را پیدا کنید</p>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="نام ماشین رو جستجو کنید...">
+            
+            <div class="filters">
+                <select id="brandFilter">
+                    <option value="">همه برندها</option>
+                </select>
+                
+                <select id="typeFilter">
+                    <option value="">همه انواع</option>
+                    <option value="سدان">سدان</option>
+                    <option value="اسپورت">اسپورت</option>
+                    <option value="SUV">SUV</option>
+                    <option value="هاچبک">هاچبک</option>
+                </select>
+                
+                <input type="range" id="priceFilter" min="0" max="500000000" placeholder="قیمت">
+                <span id="priceValue">0</span>
+            </div>
+        </div>
+
+        <div id="results" class="results-grid">
+            <!-- ماشین‌ها اینجا نمایش داده می‌شن -->
+        </div>
+    </div>
+
+    <!-- Modal برای جزئیات ماشین -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

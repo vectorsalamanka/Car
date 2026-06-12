@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "BMW M440i",
+        "brand": "BMW",
+        "type": "اسپورت",
+        "year": 2024,
+        "price": 450000000,
+        "hp": 382,
+        "speed": 275,
+        "emoji": "🏎️",
+        "description": "یک خودروی اسپورتی بسیار سریع با موتور قدرتمند و طراحی لوکس"
+    },
+    {
+        "id": 2,
+        "name": "Mercedes-Benz C63",
+        "brand": "Mercedes",
+        "type": "اسپورت",
+        "year": 2024,
+        "price": 520000000,
+        "hp": 469,
+        "speed": 290,
+        "emoji": "🚗",
+        "description": "خودروی اسپورتی فاخر با فناوری پیشرفته"
+    },
+    {
+        "id": 3,
+        "name": "Toyota Camry",
+        "brand": "Toyota",
+        "type": "سدان",
+        "year": 2024,
+        "price": 280000000,
+        "hp": 203,
+        "speed": 220,
+        "emoji": "🚙",
+        "description": "خودروی خانوادگی قابل اعتماد و مقرون به صرفه"
+    },
+    {
+        "id": 4,
+        "name": "Honda CR-V",
+        "brand": "Honda",
+        "type": "SUV",
+        "year": 2024,
+        "price": 350000000,
+        "hp": 190,
+        "speed": 210,
+        "emoji": "🚕",
+        "description": "SUV مناسب برای خانواده با فضای زیاد"
+    },
+    {
+        "id": 5,
+        "name": "Ferrari F8",
+        "brand": "Ferrari",
+        "type": "اسپورت",
+        "year": 2024,
+        "price": 2500000000,
+        "hp": 710,
+        "speed": 340,
+        "emoji": "🏁",
+        "description": "خودروی اسپورتی رویایی سریع‌ترین کلاس"
+    },
+    {
+        "id": 6,
+        "name": "Volkswagen Golf",
+        "brand": "Volkswagen",
+        "type": "هاچبک",
+        "year": 2024,
+        "price": 180000000,
+        "hp": 150,
+        "speed": 200,
+        "emoji": "🟢",
+        "description": "خودروی کمپکت و مقرون به صرفه برای شهر"
+    },
+    {
+        "id": 7,
+        "name": "Audi A6",
+        "brand": "Audi",
+        "type": "سدان",
+        "year": 2024,
+        "price": 650000000,
+        "hp": 340,
+        "speed": 250,
+        "emoji": "🔴",
+        "description": "خودروی لوکس با فناوری های پیشرفته"
+    },
+    {
+        "id": 8,
+        "name": "Porsche 911",
+        "brand": "Porsche",
+        "type": "اسپورت",
+        "year": 2024,
+        "price": 3200000000,
+        "hp": 443,
+        "speed": 320,
+        "emoji": "⚡",
+        "description": "نماد اسپورت و سرعت در جهان"
+    }
+]
